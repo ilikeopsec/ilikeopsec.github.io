@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Majoitus</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="majoitus.css">
+    </head>
+    <body>
+        <!--header-->
+        <header>
+            <nav class="navbar">
+                <b style="font-size: 30px; margin-right: 5px;" id="taipale">Taipale</b>
+                <a href="index.html">Etusivu</a>
+                <a href="toiminta.html">Toiminta</a>
+                <a href="majoitus.html">Majoitus</a>
+                <a href="ruokailu.html">Ruokailu</a>
+                <a href="tilat.html">Tilat</a>
+                <a href="yhteystiedot.html">Yhteystiedot</a>
+            </nav>
+        </header>
+        <!--header end-->
+        <div class="background">
+            <div class="dimmer">
+            </div>
+        </div>
+        <main id="main">
+            <div class="center">
+                <div class="maincontent">
+                    <h1>Majoitus</h2>
+                    <p class="normal">
+                        Meillä voit vuokrata mökin, teltan, asuntoauto- tai vaunupaikan tai huoneen päärakennukselta.
+                    </p>
+                    <section>
+                        <h2>Mökit</h2>
+                        <p class="normal">
+                            Mökkejä on kahta kokoa. Pieniä neljän hengen mökkejä löytyy kuusi kappaletta. Niihin voi pedata myös yhden lisävuoteen sohvalle. Suurempia kahdeksan hengen mökkejä on kymmenen kappaletta.
+                
+                            <b>Pienen mökin vuorokausihinta on 70 €.</b>
+                            <b>Ison mökin vuorokausihinta on 100 €. </b>
+                        </p>
+                    </section>
+                    <section>
+                        <h2>Teltat</h2>
+                        <p class="normal">
+                            Meillä on oma telttailualue, jolta voi vuokrata telttamajoituksen nukkumisvarusteineen. Telttojen koot vaihtelevat kolmen hengen teltasta kuuden hengen telttaan. Yhden teltan vuorokausihinta on 5 € plus 10 € jokaiselta yöpyjältä. Telttamajoitusta on tarjolla kesäkuun alusta syyskuun loppuun.
+                        </p>
+                    </section>
+                    <form class="formi">
+                        <label>Nimi:</label><br>
+                        <input name="nimi"><br>
+                        <label>Email:</label><br>
+                        <input name="email" type="email"><br>
+                        <label>Saapumis päivä:</label><br>
+                        <input name="aika" type="date"><br>
+                        <label>Varauksen kesto (pv):</label><br>
+                        <input name="aika" type="number"><br>
+                        <label>Majoitus tyyppi:</label><br>
+                        <select name="majoitus">
+                            <option>Pieni mökki (70€ per yö)</option>
+                            <option>Iso mökki (100€ per yö)</option>
+                            <option>Teltta (5€ per yö)</option>
+                        </select><br><br>
+                        <button>TEE TILAUS</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <!--footer-->
+        <footer class="footer">
+            © Taipale 2024
+        </footer>
+        <!--footer end-->
+    </body>
+</html>

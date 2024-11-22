@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Toiminta</title>
+        <link rel="stylesheet" href="tilat.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!--header-->
+        <header>
+            <nav class="navbar">
+                <b style="font-size: 30px; margin-right: 5px;" id="taipale">Taipale</b>
+                <a href="index.html">Etusivu</a>
+                <a href="toiminta.html">Toiminta</a>
+                <a href="majoitus.html">Majoitus</a>
+                <a href="ruokailu.html">Ruokailu</a>
+                <a href="tilat.html">Tilat</a>
+                <a href="yhteystiedot.html">Yhteystiedot</a>
+            </nav>
+        </header>
+        <!--header end-->
+        <div class="background">
+            <div class="dimmer">
+            </div>
+        </div>
+        <main id="main">
+            <div class="center">
+                <div class="maincontent">
+                    <h1>Meiltä löytyy vuokrattavia tiloja eri tarpeisiin.</h1>
+                    <section>
+                        <h3>Juhlatila</h3>
+                        <p class="normal">Meiltä löytyy ruokasali maksimissaan 80 hengelle. Se sopii hyvin esimerkiksi häiden tai syntymäpäiväjuhlien järjestämiseen, mutta tilassa onnistuvat myös kokoukset. Tarjoamme myös pitopalvelun. Tilan hinta on kesäkaudella 50 € per tunti ja talvikaudella 35 € tunti. Pitopalvelu maksaa erikseen.
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Kokoustila</h3>
+                        <p class="normal">
+                            Kokoustilaamme mahtuu yhtä aikaa 35 henkilöä. On myös mahdollista tilata pitopalvelustamme kahvitarjoilu lisähintaan. Tilan hinta on 29 € tunnilta.
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Luokkahuone</h3>
+                        <p class="normal">
+                            Meillä on myös pienempiä tapaamisia varten luokkahuone, johon mahtuu maksimissaan 30 henkilöä. Se soveltuu pienemmille kokouksille tai esimerkiksi koulutuksiin. On myös mahdollista tilata pitopalvelustamme kahvitarjoilu lisähintaan. Tilan hinta on 25 € tunnilta.
+                        </p>
+                        <form class="formi">
+                            <label>Nimi:</label><br>
+                            <input name="nimi"><br>
+                            <label>Email:</label><br>
+                            <input name="email" type="email"><br>
+                            <label>Saapumis ajankohta:</label><br>
+                            <input name="aika" type="datetime"><br>
+                            <label>Varauksen kesto (h):</label><br>
+                            <input name="aika" type="number"><br>
+                            <label>Tilan tyyppi:</label><br>
+                            <select name="majoitus">
+                                <option>Juhlatila (35€ per tunti)</option>
+                                <option>Kokoustila (29€ per tunti)</option>
+                                <option>Luokkahuone (25€ per tunti)</option>
+                            </select><br><br>
+                            <button>TEE TILAUS</button>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <!--footer-->
+        <footer class="footer">
+            © Taipale 2024
+        </footer>
+        <!--footer end-->
+    </body>
+</html>

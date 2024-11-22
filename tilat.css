@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+.background {
+    position: absolute;
+    background-image: url('images/nature1.jpg');
+    width: 100vw;
+    height: 100vh;
+    margin: -10px;
+    background-size: cover;
+    background-repeat: repeat;
+    margin-top: 10px;
+}
+
+.dimmer {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+}
+
+#main {
+    margin-top: 25px;
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.maincontent {
+    max-width: 1000px;
+}
